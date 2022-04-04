@@ -55,4 +55,4 @@ Console.WriteLine(Environment.NewLine);
 Console.ForegroundColor = ConsoleColor.Red;
 Console.WriteLine("Premi INVIO per uscire dal programma.");
 
-Console.ForegroundColor = ConsoleColor.Black;
+Console.ReadKey();
