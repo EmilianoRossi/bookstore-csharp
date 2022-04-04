@@ -8,10 +8,10 @@
     string nomeAutore = "Robert C. Martin";
     long isbnLibro = 9780132350884;
     int numeroPagineLibro = 431;
-    double pesoLibro = 0.66;
-    double larghezzaLibro = 17.91;
-    double lunghezzaLibro = 2.54;
-    double profonditàLibro = 23.5;
+    float pesoLibro = 0.66F;
+    float larghezzaLibro = 17.91F;
+    float lunghezzaLibro = 2.54F;
+    float profonditàLibro = 23.5F;
 
     Console.ForegroundColor = ConsoleColor.Red;
 
@@ -37,7 +37,7 @@
 //Dichiaro nelle variabili le informazioni di amazon
 
     int numeroDiRecensioni = 3308;
-    double valutazioneMediaLibro = 4.5;
+    float valutazioneMediaLibro = 4.5F;
 
     //corpo da stampare
 
