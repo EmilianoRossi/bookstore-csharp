@@ -21,22 +21,22 @@ int numeroPagine = int.Parse(numeroPagineLibro);
 
 Console.WriteLine("Inserire peso libro");
 string pesoLibro = Console.ReadLine();
-double peso = double.Parse(pesoLibro);
+float peso = float.Parse(pesoLibro);
     Console.Clear();
 
 Console.WriteLine("Inserire larghezza libro");
 string larghezzaLibro = Console.ReadLine(); //double 
-double larghezza = double.Parse(larghezzaLibro);
+float larghezza = float.Parse(larghezzaLibro);
     Console.Clear();
 
 Console.WriteLine("Inserire lunghezza libro");
 string lunghezzaLibro = Console.ReadLine();
-double lunghezza = double.Parse(lunghezzaLibro);
+float lunghezza = float.Parse(lunghezzaLibro);
     Console.Clear();
 
 Console.WriteLine("Inserire profondità libro");
 string profonditàLibro = Console.ReadLine();
-double profondità = double.Parse(profonditàLibro);
+float profondità = float.Parse(profonditàLibro);
     Console.Clear();
 
 Console.WriteLine("Inserire numero di recensioni");
@@ -46,7 +46,7 @@ int recensioni = int.Parse(numeroDiRecensioni);
 
 Console.WriteLine("Inserire valutazione media libro");
 string valutazioneMediaLibro = Console.ReadLine();
-double valutazioneMedia = double.Parse(valutazioneMediaLibro);
+float valutazioneMedia = float.Parse(valutazioneMediaLibro);
     Console.Clear();
 
 
